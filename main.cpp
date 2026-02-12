@@ -3,5 +3,6 @@
 
 int main() {
     Lagrange();
+
     return 0;
 }
