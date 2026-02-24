@@ -1,9 +1,9 @@
 #include <iostream>
 #include "Lagrange.h"
-#include "Gauss.cpp"
+#include "Gauss.h"
 
 int main() {
-    Gauss();
+    Gauss2();
 
     return 0;
 }
