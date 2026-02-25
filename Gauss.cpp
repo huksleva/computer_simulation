@@ -65,30 +65,6 @@ void Gauss() {
 }
 
 
-void Gauss_with_exception() {
-    constexpr int N = 4; // размер матрицы (здесь она может быть только квадратной)
-    int a[N][N] = {
-        {-5, 7, 6, 5},
-        {1, -12, 3, 4},
-        {9, 0, 3, -1},
-        {-4, -11, -3, -5}
-    };
-
-    int b[N] = { 23, 32, 33, 31 };
-
-
-
-
-
-
-
-
-
-
-
-}
-
-
 void Gauss2() {
     int n = 4;
     std::vector<std::vector<double>> a = {
