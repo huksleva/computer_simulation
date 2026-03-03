@@ -297,8 +297,8 @@ void Gauss3_3() {
         double a_max = a[k][k];
         int new_i = k;
         int new_j = k;
-        for (int i = k + 1; i < n; ++i) {
-            for (int j = k + 1; j < n; ++j) {
+        for (int i = k; i < n; ++i) {
+            for (int j = k; j < n; ++j) {
                 if (a[i][j] > a_max) {
                     a_max = a[i][j];
                     new_i = i;
