@@ -3,7 +3,7 @@
 #include "Gauss.h"
 
 int main() {
-    Gauss2();
+    Gauss3_3();
 
     return 0;
 }
