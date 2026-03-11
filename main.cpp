@@ -3,7 +3,7 @@
 #include "Gauss.h"
 
 int main() {
-    Gauss3_3();
+    Gauss_Jordan();
 
     return 0;
 }

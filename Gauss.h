@@ -10,3 +10,4 @@ void swap_lines(std::vector<std::vector<double>> &a, std::vector<double> &b, int
 void Gauss3_2();
 void swap_max_elem(std::vector<std::vector<double>> &a, std::vector<double> &b, int i, int j, int new_i, int new_j);
 void Gauss3_3();
+void Gauss_Jordan();
