@@ -355,6 +355,7 @@ void Gauss3_3() {
 
 
 void Gauss_Jordan() {
+    std::cout << "Gauss Jordan:\n\n";
     int n = 4;
     std::vector<std::vector<double>> a = {
         {5, 7, 6, 5},

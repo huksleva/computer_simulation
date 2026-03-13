@@ -4,7 +4,9 @@
 #include "Factorization.h"
 
 int main() {
-    Triangular_factorization();
+    // Triangular_factorization();
+    Gauss_Jordan();
+
 
     return 0;
 }
