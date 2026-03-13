@@ -1,9 +1,10 @@
 #include <iostream>
 #include "Lagrange.h"
 #include "Gauss.h"
+#include "Factorization.h"
 
 int main() {
-    Gauss_Jordan();
+    Triangular_factorization();
 
     return 0;
 }
