@@ -2,10 +2,10 @@
 #include "Lagrange.h"
 #include "Gauss.h"
 #include "Factorization.h"
+#include "Rotation.h"
 
 int main() {
-    // Triangular_factorization();
-    Gauss_Jordan();
+    Rotation_method();
 
 
     return 0;
