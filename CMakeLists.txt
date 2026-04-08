@@ -4,4 +4,5 @@ project(computer_simulation)
 set(CMAKE_CXX_STANDARD 20)
 
 add_executable(computer_simulation main.cpp
-        Gauss.cpp)
+        Gauss.cpp Rotation.cpp Lagrange.cpp
+        Factorization.cpp DigitByDigit.cpp)
